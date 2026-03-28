@@ -1,0 +1,51 @@
+.about-us-content {
+  display: flex;
+  gap: 40px;
+}
+
+.about-us-title {
+  font-weight: 600;
+  line-height: 0.91667;
+  font-size: 48px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  margin-bottom: 40px;
+}
+
+.about-us-text {
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+}
+
+.about-us-text.first {
+  margin-bottom: 20px;
+}
+
+.about-us-text.second {
+  margin-bottom: 40px;
+}
+
+.about-us-button {
+  width: 160px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+  background-color: #3350e9;
+  height: 48px;
+  border-radius: 16px;
+  border: none;
+}
+
+.about-us-text-wrapper {
+  background-color: #f3f3f3;
+  border-radius: 50px;
+  padding-top: 80px;
+  padding-inline: 60px;
+}
+
+.about-us {
+  margin-bottom: 100px;
+}
