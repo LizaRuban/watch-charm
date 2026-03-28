@@ -1,0 +1,47 @@
+.advertisement-content {
+  background-image: url('../images/Advertisment-image.png');
+  border-radius: 30px;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: space-between;
+  padding-block: 83px;
+  padding-inline: 80px;
+}
+
+.advertisement-section {
+  margin-bottom: 100px;
+}
+
+.ad-text {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  max-width: 690px;
+}
+
+.ad-accent {
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.ad-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 15px 44px;
+  min-width: 160px;
+  height: 48px;
+
+  border: 1px solid rgba(251, 251, 251, 0.15);
+  border-radius: 16px;
+  background-color: transparent;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  color: #fbfbfb;
+
+  cursor: pointer;
+}
