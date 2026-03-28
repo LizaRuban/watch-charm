@@ -1,0 +1,37 @@
+.hero-title {
+  font-weight: 600;
+  font-size: 72px;
+  line-height: 0.875;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+  width: 597px;
+  margin-bottom: 20px;
+}
+
+.hero-title-accent {
+  color: #3350e9;
+}
+
+.hero-text {
+  font-weight: 500;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  width: 480px;
+}
+
+.call-to-action {
+  display: flex;
+  flex-direction: column;
+  gap: 189px;
+  align-items: flex-end;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.hero-section {
+  margin-bottom: 100px;
+}
