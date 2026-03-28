@@ -1,0 +1,36 @@
+.catalog-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.catalog-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 23px;
+}
+
+.catalog-item {
+  padding-top: 30px;
+  padding-bottom: 24px;
+  padding-left: 38px;
+  background-color: #f3f3f3;
+  width: calc((100% - 46px) / 3);
+  border-radius: 30px;
+}
+
+.catalog-item-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  width: 304px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}

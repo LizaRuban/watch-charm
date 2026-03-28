@@ -8,7 +8,6 @@
   line-height: 0.91667;
   font-size: 48px;
   letter-spacing: -0.02em;
-  color: #0c0c0c;
   margin-bottom: 40px;
 }
 
@@ -47,5 +46,9 @@
 }
 
 .about-us {
+  margin-bottom: 100px;
+}
+
+.catalog-section {
   margin-bottom: 100px;
 }
