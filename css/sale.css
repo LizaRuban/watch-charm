@@ -1,0 +1,124 @@
+.sale-title {
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 0.91667;
+  letter-spacing: -0.02em;
+  margin-bottom: 40px;
+}
+
+.small-watches {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-right: 20px;
+}
+
+.small-watches-item {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 20px;
+  width: 132px;
+  height: 132px;
+  background-color: #f3f3f3;
+  padding: 16px 18px;
+}
+
+.sale-content {
+  display: flex;
+}
+
+.big-watch-container {
+  border: 1px solid rgba(12, 12, 12, 0.05);
+  border-radius: 50px;
+  padding: 80px 50px;
+  background-color: #f3f3f3;
+  margin-right: 40px;
+  min-width: 428px;
+}
+
+.sale-info-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+  background-color: #3350e9;
+  padding: 60px;
+}
+
+.main-sale-text {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.125;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  margin-bottom: 10px;
+}
+
+.product-tag {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+  margin-bottom: 20px;
+}
+
+.sale-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+  width: 78px;
+  border-radius: 8px;
+  background-color: rgba(251, 251, 251, 0.1);
+  border: none;
+  padding: 8px 12px;
+}
+
+.sale-button-container {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 30px;
+}
+
+.euro-text {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: -0.02em;
+  text-decoration: line-through;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.sale-big-text {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.7);
+  margin-bottom: 40px;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.button-item {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 12px;
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
