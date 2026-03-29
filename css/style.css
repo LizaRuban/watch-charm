@@ -36,3 +36,50 @@ a {
   padding: 0 65px;
   margin: 0 auto;
 }
+
+/* ----------header------------- */
+.logo {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+
+  padding: 32px 0;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.navigation-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #0c0c0c;
+}
+
+.navigation-link {
+  display: block;
+  padding: 30px 0 40px;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-media-link {
+  display: block;
+  padding: 20px 0;
+  width: 36px;
+  height: 36px;
+}
