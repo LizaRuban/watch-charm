@@ -1,0 +1,144 @@
+.footer {
+  border-radius: 30px;
+  padding: 40px 40px 28px;
+  max-width: 1261px;
+  background-color: #0c0c0c;
+  padding-top: 40px;
+  padding-inline: 40px;
+  margin: 0 auto;
+}
+
+.footer-top-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.footer-title {
+  width: 523px;
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 1.14286;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.phone-link {
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 160px;
+  height: 48px;
+  padding: 15px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.social-logo-footer {
+  width: 20px;
+  height: 20px;
+  fill: #fbfbfb;
+}
+.social-media-item-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(251, 251, 251, 0.1);
+  border-radius: 10px;
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+}
+
+.footer-wrapper-logo {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: -0.02em;
+  color: #fbfbfb;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 126px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer-address {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
+}
+
+.footer-nav-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  text-align: center;
+  color: #fbfbfb;
+}
+
+.footer-nav-list {
+  display: flex;
+  gap: 40px;
+  padding-bottom: 18px;
+}
+
+.footer-bottom-section {
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+
+.footer-copyright {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  color: rgba(251, 251, 251, 0.5);
+
+  opacity: 0.9;
+}
+
+.footer-policy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.policy-link {
+  font-family: 'Gilroy', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  letter-spacing: -0.02em;
+  text-align: right;
+  color: rgba(251, 251, 251, 0.5);
+}
+
+.policy-links {
+  display: flex;
+  gap: 20px;
+}

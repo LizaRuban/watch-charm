@@ -49,8 +49,7 @@
     color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
 }
 
-.cta-btn:hover,
-.cta-btn:focus {
+.cta-btn:hover {
   text-decoration-color: #3350e9;
   color: #3350e9;
 }

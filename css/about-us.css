@@ -36,6 +36,12 @@
   height: 48px;
   border-radius: 16px;
   border: none;
+  transition: background-color 250ms cubic-bezier(0.17, 0.67, 0.83, 0.67);
+}
+
+.about-us-button:hover {
+  background-color: #2a43b8;
+  cursor: pointer;
 }
 
 .about-us-text-wrapper {
