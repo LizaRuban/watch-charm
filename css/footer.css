@@ -3,8 +3,6 @@
   padding: 40px 40px 28px;
   max-width: 1261px;
   background-color: #0c0c0c;
-  padding-top: 40px;
-  padding-inline: 40px;
   margin: 0 auto;
 }
 
@@ -15,8 +13,8 @@
 }
 
 .footer-title {
-  width: 523px;
-  font-family: 'Gilroy', sans-serif;
+  max-width: 523px;
+  margin: 0 auto;
   font-weight: 600;
   font-size: 28px;
   line-height: 1.14286;
@@ -32,7 +30,6 @@
   height: 48px;
   padding: 15px;
 
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -63,7 +60,6 @@
   flex-direction: column;
   gap: 20px;
 
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 20px;
   letter-spacing: -0.02em;
@@ -83,7 +79,6 @@
 }
 
 .footer-address {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -91,7 +86,6 @@
 }
 
 .footer-nav-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -112,7 +106,6 @@
 }
 
 .footer-copyright {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -129,7 +122,6 @@
 }
 
 .policy-link {
-  font-family: 'Gilroy', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.28571;
@@ -141,4 +133,11 @@
 .policy-links {
   display: flex;
   gap: 20px;
+}
+
+.footer-text-address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.28571;
+  color: #fbfbfb;
 }

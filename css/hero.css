@@ -3,7 +3,7 @@
   font-size: 72px;
   line-height: 0.875;
   letter-spacing: -0.02em;
-  width: 597px;
+  max-width: 597px;
   margin-bottom: 20px;
 }
 
@@ -15,7 +15,7 @@
   font-weight: 500;
   line-height: 1.25;
   letter-spacing: -0.02em;
-  width: 480px;
+  max-width: 480px;
 }
 
 .call-to-action {
@@ -52,4 +52,8 @@
 .cta-btn:hover {
   text-decoration-color: #3350e9;
   color: #3350e9;
+}
+
+.image-hero {
+  width: 100%;
 }

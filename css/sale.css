@@ -75,6 +75,7 @@
   background-color: rgba(251, 251, 251, 0.1);
   border: none;
   padding: 8px 12px;
+  cursor: pointer;
 }
 
 .sale-button-container {
@@ -121,6 +122,7 @@
   font-size: 14px;
   line-height: 1.28571;
   color: #fbfbfb;
+  cursor: pointer;
 }
 
 .sale-section {
