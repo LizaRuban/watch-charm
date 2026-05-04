@@ -2,6 +2,7 @@ body {
   font-family: 'Gilroy', sans-serif;
   font-size: 16px;
   color: #0c0c0c;
+  box-sizing: border-box;
 }
 
 h1,

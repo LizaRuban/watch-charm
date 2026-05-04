@@ -24,6 +24,7 @@
     <link rel="stylesheet" href="./css/sale.css" />
     <link rel="stylesheet" href="./css/reviews.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/contact-us.css" />
   </head>
   <body>
     <header>
@@ -144,6 +145,7 @@
             </div>
             <img
               class="about-us-image"
+              loading="lazy"
               src="./images/About-us-image.jpg"
               alt="About us"
               width="530"
@@ -160,6 +162,7 @@
                 src="./images/catalog/Garmin-Fenix.png"
                 alt="Garmin Fenix 7X Pro Sapphire Solar"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">
                 Garmin Fenix 7X Pro Sapphire Solar
@@ -171,6 +174,7 @@
                 src="./images/catalog/Garmin-Marq-Athlete.png"
                 alt="Garmin Marq Athlete"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">Garmin Marq Athlete</p>
               <p>&euro;450</p>
@@ -180,6 +184,7 @@
                 src="./images/catalog/Garmin-Descent-MK1.png"
                 alt="Garmin Descent MK1"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">Garmin Descent MK1</p>
               <p>&euro;680</p>
@@ -189,6 +194,7 @@
                 src="./images/catalog/Garmin-D2-Delta-PX.png"
                 alt="Garmin D2 Delta PX"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">Garmin D2 Delta PX</p>
               <p>&euro;380</p>
@@ -198,6 +204,7 @@
                 src="./images/catalog/Garmin-Fenix-6-Pro-Solar.png"
                 alt="Garmin Fenix 6 Pro Solar"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">Garmin Fenix 6 Pro Solar</p>
               <p>&euro;400</p>
@@ -207,6 +214,7 @@
                 src="./images/catalog/Tube-Watch-S42-Date-Steel-With-Black-Case.png"
                 alt="Tube Watch S42 Date Steel With Black Case"
                 width="292"
+                loading="lazy"
               />
               <p class="catalog-item-text">
                 Tube Watch S42 Date Steel With Black Case
@@ -236,13 +244,28 @@
                 <img src="./images/sale/watch-1.png" alt="watch" width="92" />
               </li>
               <li class="small-watches-item">
-                <img src="./images/sale/watch-2.png" alt="watch" width="92" />
+                <img
+                  src="./images/sale/watch-2.png"
+                  alt="watch"
+                  width="92"
+                  loading="lazy"
+                />
               </li>
               <li class="small-watches-item">
-                <img src="./images/sale/watch-3.png" alt="watch" width="92" />
+                <img
+                  src="./images/sale/watch-3.png"
+                  alt="watch"
+                  width="92"
+                  loading="lazy"
+                />
               </li>
               <li class="small-watches-item">
-                <img src="./images/sale/watch-4.png" alt="watch" width="92" />
+                <img
+                  src="./images/sale/watch-4.png"
+                  alt="watch"
+                  width="92"
+                  loading="lazy"
+                />
               </li>
             </ul>
             <div class="big-watch-container">
@@ -250,6 +273,7 @@
                 src="./images/sale/watch-big-image.png"
                 alt="image big image in sale section"
                 width="328"
+                loading="lazy"
               />
             </div>
             <div class="sale-info-container">
@@ -258,7 +282,9 @@
               </h3>
               <p class="product-tag">Product tag: 706587</p>
               <div class="sale-button-container">
-                <button type="button" class="sale-button" type="button">&euro;1500</button>
+                <button type="button" class="sale-button" type="button">
+                  &euro;1500
+                </button>
                 <p class="euro-text">&euro;3000</p>
               </div>
               <p class="sale-big-text">
@@ -295,6 +321,7 @@
                 alt="John Wax"
                 width="56"
                 class="reviewer-image"
+                loading="lazy"
               />
               <h3 class="reviewer-header">John Wax</h3>
               <p class="reviewer-text">
@@ -309,6 +336,7 @@
                 alt="Victoria Romashenko"
                 width="56"
                 class="reviewer-image"
+                loading="lazy"
               />
               <h3 class="reviewer-header">Victoria Romashenko</h3>
               <p class="reviewer-text">
@@ -323,6 +351,7 @@
                 alt="Anastasia Trachuk"
                 width="56"
                 class="reviewer-image"
+                loading="lazy"
               />
               <h3 class="reviewer-header">Anastasia Trachuk</h3>
               <p class="reviewer-text">
@@ -332,6 +361,73 @@
               </p>
             </li>
           </ul>
+        </div>
+      </section>
+      <section class="contact-us-section" id="contact-us">
+        <div class="container">
+          <h2 class="contact-us-header">Contact Us</h2>
+          <div class="contact-info">
+            <form class="contact-form">
+              <p class="contact-form-text">
+                Please use the form below to contact us. Enter your name, email,
+                phone, and message and we'll get back to you shortly.
+              </p>
+              <div class="contact-form-group">
+                <div class="form-field">
+                  <label for="name" class="visually-hidden">Name</label>
+                  <input
+                    id="name"
+                    type="text"
+                    name="name"
+                    class="contact-input"
+                    placeholder="Name"
+                    autocomplete="name"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="email" class="visually-hidden">Email</label>
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    class="contact-input"
+                    placeholder="Email"
+                    required
+                    autocomplete="email"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="phone" class="visually-hidden">Phone</label>
+                  <input
+                    id="phone"
+                    type="tel"
+                    name="phone"
+                    class="contact-input"
+                    placeholder="+380"
+                    autocomplete="tel"
+                  />
+                </div>
+                <div class="form-field">
+                  <label for="message" class="visually-hidden">Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    class="contact-textarea"
+                    placeholder="Comment"
+                    required
+                    minlength="10"
+                  ></textarea>
+                </div>
+              </div>
+              <button type="submit" class="contact-submit-button">Send</button>
+            </form>
+            <img
+              src="./images/contact-us.jpg"
+              alt="Contact us"
+              class="contact-us-image"
+              loading="lazy"
+            />
+          </div>
         </div>
       </section>
     </main>
